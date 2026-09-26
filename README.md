@@ -30,7 +30,7 @@
 3. 按下 `F12` 打开浏览器开发者工具，点击 `Console`（控制台）标签。
 4. 将 `extractor.js` 中的代码粘贴到控制台中，并按回车运行。
 5. 脚本运行完毕后，浏览器会自动下载一个名为 `steamcmd_app_XXXXX.txt` 的文件。
-6. 将下载的 `.txt` 文件重命名为 `.bat`（Windows）或直接作为参数传给 SteamCMD（Linux）。
+6. 将下载的 `.txt` 直接作为参数传给 SteamCMD，指令:`.\steamcmd.exe +script .\<your file name>`。
 7. 将该文件放入你的 SteamCMD 根目录，双击运行即可开始批量下载。
 
 ## 📄 输出示例
