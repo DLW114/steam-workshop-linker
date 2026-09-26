@@ -59,7 +59,6 @@
         return;
     }
 
-    // 2. 按照 steamcmd 格式拼接文本
     let outputText = "";
     allModIds.forEach(modId => {
         outputText += `${modId},`;
