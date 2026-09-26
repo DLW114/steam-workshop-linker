@@ -14,6 +14,15 @@
 - 自动生成包含 `login anonymous` 的标准 SteamCMD 批处理命令。
 - 输出纯数字 MOD ID，格式整洁。
 
+## 适用平台
+- Windows 7 以上   (Windows 10 1809之前版本SteamCMD可能不稳定)
+- Linux   glibc >= 2.12
+- macOS   OS X 10.11 (El Capitan) 	仅限 Intel Mac,且需确认游戏服务端是否支持
+
+## 图形化替代
+可以使用由**lu-cent**制作的[WorkshopDL-PS](https://github.com/lu-cent/WorkshopDL-PS)
+注意:只支持windows系统，需要**PowerShell 5.1+**
+
 ## 🛠️ 使用方法
 
 1. 登录 [Steam 网页版](https://steamcommunity.com/)。
@@ -34,3 +43,7 @@ workshop_download_item 294100 1234567890
 workshop_download_item 294100 9876543210
 ...
 ```
+
+
+## 相关项目
+[WorkshopDL-PS](https://github.com/lu-cent/WorkshopDL-PS)
