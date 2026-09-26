@@ -43,3 +43,7 @@ workshop_download_item 294100 1234567890
 workshop_download_item 294100 9876543210
 ...
 ```
+
+
+## 相关项目
+[WorkshopDL-PS](https://github.com/lu-cent/WorkshopDL-PS)
